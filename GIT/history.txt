@@ -1,0 +1,265 @@
+    1  sudo apt-get install git
+    2  git --version
+    3  git clone https://github.com/georgeandrei96/iso-intro-git.git iso-intro
+    4  git config --global georgeandrei96 "George Andrei"
+    5  git config --global user.name "George Andrei"
+    6  git config --global user.email susneageorge@gmail.com
+    7  git config --global merge.tool meld
+    8  git status
+    9  ls
+   10  touch principal.sh
+   11  git status
+   12  cd iso-intro/
+   13  git status
+   14  touch principal.sh
+   15  git status
+   16  ls -la
+   17  nano principal.sh 
+   18  echo principal.sh 
+   19  nano principal.sh 
+   20  git status
+   21  git add principal.sh 
+   22  git status
+   23  git commit -m 'Creando archivo principal'
+   24  git status
+   25  git push origin master
+   26  git config --global credential.helper cache
+   27  git status
+   28  git pull origin master
+   29  git status
+   30  git tag
+   31  git tag -a v0.1 -m 'mi primera version 0.1'
+   32  git tag
+   33  git push origin master v0.1
+   34  LS
+   35  git status
+   36  cd ..
+   37  ls
+   38  cd Documentos/
+   39  ls
+   40  cd PROYECTOLINUX/
+   41  git status
+   42  ls -la
+   43  git --version
+   44  git init
+   45  git status
+   46  git remote add origin https://github.com/georgeandrei96/PROYECTO_LINUX.git
+   47  git status
+   48  git ùsh origin master
+   49  git push origin master
+   50  git status
+   51  git pull origin master
+   52  git push origin master
+   53  git status
+   54  git remote add origin https://github.com/georgeandrei96/PROYECTOLINUX1.git
+   55  git status
+   56  git pull origin master
+   57  git push origin master
+   58  git status
+   59  git push origin master
+   60  git remote add origin https://github.com/georgeandrei96/PROYECTO_LINUX.git
+   61  git push origin master
+   62  git status
+   63  git add .
+   64  git status
+   65  git commit -m "archivos iniciales.txt"
+   66  git push origin master
+   67  git status
+   68  git tag
+   69  git tag -a v.0 -m "Tag inicial proyecto linux"
+   70  git tag
+   71  git push origin master v.0
+   72  cd ..
+   73  mkdir ejemplo
+   74  ls
+   75  cd ejemplo/
+   76  ls
+   77  nano a
+   78  nano b
+   79  ls
+   80  git status
+   81  cd ..
+   82  mkdir libro
+   83  nano libro_a
+   84  nano libro_b
+   85  ls
+   86  cd libro/
+   87  ls
+   88  git status
+   89  git init
+   90  git status
+   91  ls .la
+   92  ls -la
+   93  git remote add origin https://github.com/georgeandrei96/libro.git
+   94  ls -la
+   95  git status
+   96  git pull origin master
+   97  ls -la
+   98  ls
+   99  git status
+  100  git add .
+  101  git status
+  102  git commit -m "libros.txt"
+  103  git status
+  104  git push origin master
+  105  nano indice.txt
+  106  ls
+  107  git status
+  108  add indice.txt 
+  109  git add indice.txt 
+  110  git status
+  111  git commit -m "añadido indice del libro"
+  112  git status
+  113  nano indice.txt
+  114  git status
+  115  git commit -m "añadido capitulo 3 sobre gestion de ramas"
+  116  git status
+  117  git commit -m "añadido capitulo 3 sobre gestion de ramas"
+  118  git add indice.txt 
+  119  git status
+  120  git commit -m "añadido capitulo 3 sobre gestion de ramas"
+  121  git status
+  122  git push origin master
+  123  git show
+  124  git clone https://github.com/AgustinPrf/libro-git.git
+  125  cd libro-git
+  126  git reset --hard 8c808
+  127  git remote remove origin
+  128  show
+  129  git status
+  130  git log
+  131  mkdir capitulos
+  132  l
+  133  cd capitulos/
+  134  nano capitulo1.txt
+  135  git add capitulo1.txt 
+  136  git commir -m "añadido capitulo 1"
+  137  git commit -m "añadido capitulo 1"
+  138  git log
+  139  nano capitulo2.txt
+  140  git add capitulo2.txt 
+  141  ls
+  142  git commit -m "añadido capitulo 2"
+  143  git diff
+  144  git diff HEAD~2..HEAD
+  145  show
+  146  git show
+  147  nano capitulo3.txt
+  148  git add capitulo3.txt 
+  149  git commit -m "añadido capitulo 3"
+  150  git diff HEAD~2..HEAD
+  151  git diff HEAD
+  152  git diff HEAD~2..
+  153  git diff HEAD~2
+  154  git diff HEAD
+  155  ls -la
+  156  git log
+  157  history
+  158  cd ..
+  159  cd History
+  160  mkdir History
+  161  cd History/
+  162  git init
+  163  mkdir GIT
+  164  git status
+  165  ls
+  166  git init
+  167  git status
+  168  git add.
+  169  git add .
+  170  git status
+  171  git remote add origin https://github.com/georgeandrei96/History.git
+  172  git pull origin master
+  173  git status
+  174  git add .
+  175  git commit -m "GIT"
+  176  git push origin master
+  177  ls -ls
+  178  ls -la
+  179  git status
+  180  ls
+  181  cd GIT/
+  182  nano Introduccion_git.txt
+  183  cd ..
+  184  git init
+  185  git status
+  186  git add .
+  187  git history
+  188  git status
+  189  git remote add origin https://github.com/georgeandrei96/History.git
+  190  git push origin master
+  191  git status
+  192  git commit -m "archivos git"
+  193  git push origin master
+  194  git status
+  195  git clone https://github.com/AgustinPrf/libro-git.tit
+  196  cd ..
+  197  cd libro/
+  198  ls
+  199  cd libro-git/
+  200  ls
+  201  git clone https://github.com/AgustinPrf/libro-git.tit
+  202  git clone https://github.com/AgustinPrf/libro-git.git
+  203  git reset --hard 48ed8
+  204  git remote remove origin
+  205  ls
+  206  cd libro-git/
+  207  ls
+  208  git reset --hard 48ed8
+  209  git remote remove origin
+  210  ls
+  211  cd ..
+  212  ls
+  213  cd libro-git/
+  214  ls
+  215  nano indice.txt 
+  216  git status
+  217  git reset indice.txt
+  218  git status
+  219  nano indice.txt 
+  220  git checkout -- indice.txt
+  221  git status
+  222  nano indice.txt 
+  223  git add indice.txt 
+  224  git status
+  225  git reset indice.txt
+  226  git status
+  227  git checkout -- indice.txt
+  228  git status
+  229  git clean -f
+  230  git status
+  231  cd ..
+  232  ls
+  233  cd ..
+  234  ls
+  235  cd libro-git/
+  236  ls
+  237  git branch bibliografia
+  238  git status
+  239  ls
+  240  git branch -av
+  241  nano capitulos/capitulo4.txt
+  242  ls
+  243  git add capitulos/
+  244  git commit -m "añadido cap4"
+  245  git status
+  246  git log --graph -all -oneline
+  247  git log --graph --all -oneline
+  248  git log --graph --all --oneline
+  249  ls
+  250  git branch biliografia
+  251  branch -va
+  252  branch -av
+  253  git branch -av
+  254  nano bibliografia.txt
+  255  git add bibliografia.txt 
+  256  git status
+  257  git commit -m "añadido bibliografia"
+  258  git log --graph --all --oneline
+  259  ls
+  260  git checkout master
+  261  git merge bibliografia 
+  262  git log --graph --all --oneline
+  263  ls
+  264  git branch -va
+  265  history > history.txt
